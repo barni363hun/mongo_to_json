@@ -1,16 +1,14 @@
 {
   "connection_string": "mongosh 'mongodb+srv://sandbox.lyn0e.mongodb.net/myFirstDatabase' -u m001-student -p m001-mongodb-basics",
   "db": "use sample_airbnb",
-  "script": "db.listingsAndReviews.find(#)",
+  "script": "db.listingsAndReviews.find(#).count()",
   "query": {
     "$and": [
       {
-        "accommodates": {
-          "$gt": 6
-        }
+        "property_type": "House"
       },
       {
-        "number_of_reviews": 50
+        "amenities": "Changing table"
       }
     ]
   }
