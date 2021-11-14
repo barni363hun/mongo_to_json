@@ -1,0 +1,43 @@
+{
+  "connection_string": "mongosh 'mongodb+srv://sandbox.lyn0e.mongodb.net/myFirstDatabase' -u m001-student -p m001-mongodb-basics",
+  "db": "use sample_training",
+  "script": "db.companies.find($).count()",
+  "query": {
+    "$or": [
+      {
+        "$and": [
+          {
+            "founded_year": 2004
+          },
+          {
+            "$or": [
+              {
+                "category_code": "social"
+              },
+              {
+                "category_code": "web"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "$and": [
+          {
+            "founded_month": 10
+          },
+          {
+            "$or": [
+              {
+                "category_code": "social"
+              },
+              {
+                "category_code": "web"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
