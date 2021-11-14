@@ -1,1 +1,1 @@
-db.companies.find({'$expr':{'$eq':['$permalink','$twitter_username']}}).count()
+db.listingsAndReviews.find({'$and':[{'accommodates':{'$gt':6}},{'number_of_reviews':50}]})
