@@ -1,1 +1,1 @@
-db.listingsAndReviews.find({'$and': [{'property_type': 'House'}, {'amenities': 'Changing table'}]}).count()
+db.companies.find({'offices': {'$elemMatch': {'city': 'Seattle'}}},{'offices': 1, '_id': 0}).count()

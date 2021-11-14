@@ -1,0 +1,772 @@
+{
+    "_id": {
+        "$oid": "52cdef7c4bab8bd675297d97"
+    },
+    "name": "Scribd",
+    "permalink": "scribd",
+    "crunchbase_url": "http://www.crunchbase.com/company/scribd",
+    "homepage_url": "http://scribd.com",
+    "blog_url": "http://blog.scribd.com/",
+    "blog_feed_url": "http://blog.scribd.com/feed/",
+    "twitter_username": "scribd",
+    "category_code": "news",
+    "number_of_employees": {
+        "$numberInt": "50"
+    },
+    "founded_year": {
+        "$numberInt": "2007"
+    },
+    "founded_month": null,
+    "founded_day": null,
+    "deadpooled_year": null,
+    "deadpooled_month": null,
+    "deadpooled_day": null,
+    "deadpooled_url": null,
+    "tag_list": "book-subscription, digital-library, netflix-for-books, sharing, documents, social, pdf, social-publishing, online-publishing",
+    "alias_list": "",
+    "email_address": "feedback@scribd.com",
+    "phone_number": "",
+    "description": "Read Unlimited Books",
+    "created_at": "Sat Jun 02 07:34:05 UTC 2007",
+    "updated_at": "Sat Dec 14 00:46:12 UTC 2013",
+    "overview": "<p>Scribd is the world’s biggest digital library, featuring a subscription service with premier ebooks including New York Times bestsellers and literary classics. A pioneer of the all-you-can-read model, Scribd&#8217;s subscriptions service allows readers to have unlimited access to more than 100,000 books from over 900 publishers, including Harper Collins, Rosetta, and Workman.</p>\n\n<p>Launched in 2007 by Trip Adler and Jared Friedman in San Francisco, CA, Scribd is backed by Y Combinator, Charles River Ventures, and Redpoint Ventures. Scribd&#8217; has more than 80 million active readers visiting the site each month, and its document reader has been embedded more than 10 million times across the web on sites like The New York Times, USA Today, Guardian, and TechCrunch. </p>",
+    "image": {
+        "available_sizes": [
+            [
+                [
+                    {
+                        "$numberInt": "114"
+                    },
+                    {
+                        "$numberInt": "114"
+                    }
+                ],
+                "assets/images/resized/0000/3184/3184v25-max-150x150.png"
+            ],
+            [
+                [
+                    {
+                        "$numberInt": "114"
+                    },
+                    {
+                        "$numberInt": "114"
+                    }
+                ],
+                "assets/images/resized/0000/3184/3184v25-max-250x250.png"
+            ],
+            [
+                [
+                    {
+                        "$numberInt": "114"
+                    },
+                    {
+                        "$numberInt": "114"
+                    }
+                ],
+                "assets/images/resized/0000/3184/3184v25-max-450x450.png"
+            ]
+        ],
+        "attribution": null
+    },
+    "products": [],
+    "relationships": [
+        {
+            "is_past": false,
+            "title": "CEO/Co-Founder",
+            "person": {
+                "first_name": "Trip",
+                "last_name": "Adler",
+                "permalink": "john-adler"
+            }
+        },
+        {
+            "is_past": false,
+            "title": "CMO",
+            "person": {
+                "first_name": "Julie",
+                "last_name": "Haddon",
+                "permalink": "julie-haddon"
+            }
+        },
+        {
+            "is_past": false,
+            "title": "CTO/Co-Founder",
+            "person": {
+                "first_name": "Jared",
+                "last_name": "Friedman",
+                "permalink": "jared-friedman"
+            }
+        },
+        {
+            "is_past": false,
+            "title": "VP, Content Acquisition",
+            "person": {
+                "first_name": "Andrew",
+                "last_name": "Weinstein",
+                "permalink": "andrew-weinstein"
+            }
+        },
+        {
+            "is_past": false,
+            "title": "Board of Directors",
+            "person": {
+                "first_name": "Bill",
+                "last_name": "Tai",
+                "permalink": "bill-tai"
+            }
+        },
+        {
+            "is_past": false,
+            "title": "Board of Directors",
+            "person": {
+                "first_name": "David",
+                "last_name": "Sacks",
+                "permalink": "david-sacks"
+            }
+        },
+        {
+            "is_past": false,
+            "title": "VP, Engineering",
+            "person": {
+                "first_name": "Sabeen",
+                "last_name": "Minns",
+                "permalink": "sabeen-minns"
+            }
+        },
+        {
+            "is_past": false,
+            "title": "Board of Directors",
+            "person": {
+                "first_name": "Geoff",
+                "last_name": "Yang",
+                "permalink": "geoff-yang"
+            }
+        },
+        {
+            "is_past": false,
+            "title": "Investor",
+            "person": {
+                "first_name": "Lou",
+                "last_name": "Kerner",
+                "permalink": "lou-kerner"
+            }
+        },
+        {
+            "is_past": true,
+            "title": "COO/Co-Founder",
+            "person": {
+                "first_name": "Tikhon",
+                "last_name": "Bernstam",
+                "permalink": "tikhon-bernstam"
+            }
+        },
+        {
+            "is_past": true,
+            "title": "VP, Business Development",
+            "person": {
+                "first_name": "Mike",
+                "last_name": "McGuinness",
+                "permalink": "mike-mcguinness"
+            }
+        },
+        {
+            "is_past": true,
+            "title": "SVP, Business Development",
+            "person": {
+                "first_name": "Rob",
+                "last_name": "Macdonald",
+                "permalink": "rob-macdonald"
+            }
+        },
+        {
+            "is_past": true,
+            "title": "President",
+            "person": {
+                "first_name": "George",
+                "last_name": "Consagra",
+                "permalink": "george-consagra"
+            }
+        },
+        {
+            "is_past": true,
+            "title": "Developer",
+            "person": {
+                "first_name": "Quin",
+                "last_name": "Hoxie",
+                "permalink": "quin-hoxie"
+            }
+        },
+        {
+            "is_past": true,
+            "title": "Community & Content Manager",
+            "person": {
+                "first_name": "Mariko",
+                "last_name": "Fritz-Krockow",
+                "permalink": "mariko-fritz-krockow"
+            }
+        },
+        {
+            "is_past": true,
+            "title": "Senior Search Engineer",
+            "person": {
+                "first_name": "Simon",
+                "last_name": "Wistow",
+                "permalink": "simon-wistow"
+            }
+        },
+        {
+            "is_past": true,
+            "title": "Software Engineer",
+            "person": {
+                "first_name": "Ryan",
+                "last_name": "Richards",
+                "permalink": "ryan-richards"
+            }
+        },
+        {
+            "is_past": true,
+            "title": "iOS Engineer",
+            "person": {
+                "first_name": "Sam",
+                "last_name": "Soffes",
+                "permalink": "sam-soffes"
+            }
+        },
+        {
+            "is_past": true,
+            "title": "SVP, Marketing",
+            "person": {
+                "first_name": "Tammy",
+                "last_name": "H. Nam",
+                "permalink": "tammy-h-nam"
+            }
+        },
+        {
+            "is_past": true,
+            "title": "Head of Business Operations & Recruiting",
+            "person": {
+                "first_name": "Jack",
+                "last_name": "Leidlein",
+                "permalink": "jack-leidlein"
+            }
+        },
+        {
+            "is_past": true,
+            "title": "Senior Software Engineer",
+            "person": {
+                "first_name": "Tyler",
+                "last_name": "McMullen",
+                "permalink": "tyler-mcmullen"
+            }
+        }
+    ],
+    "competitions": [
+        {
+            "competitor": {
+                "name": "Docstoc",
+                "permalink": "docstoc"
+            }
+        },
+        {
+            "competitor": {
+                "name": "Issuu",
+                "permalink": "issuu"
+            }
+        },
+        {
+            "competitor": {
+                "name": "SlideShare",
+                "permalink": "slideshare"
+            }
+        },
+        {
+            "competitor": {
+                "name": "Docstoc",
+                "permalink": "docstoc"
+            }
+        },
+        {
+            "competitor": {
+                "name": "Joomag, Inc.",
+                "permalink": "joomag"
+            }
+        },
+        {
+            "competitor": {
+                "name": "youblisher.com",
+                "permalink": "youblisher-com"
+            }
+        },
+        {
+            "competitor": {
+                "name": "Crocodoc",
+                "permalink": "crocodoc"
+            }
+        },
+        {
+            "competitor": {
+                "name": "Yumpu [i]-magazine",
+                "permalink": "yumpu"
+            }
+        },
+        {
+            "competitor": {
+                "name": "Oyster Books",
+                "permalink": "oysterbooks-com"
+            }
+        },
+        {
+            "competitor": {
+                "name": "eReatah",
+                "permalink": "ereatah"
+            }
+        }
+    ],
+    "providerships": [],
+    "total_money_raised": "$25.8M",
+    "funding_rounds": [
+        {
+            "id": {
+                "$numberInt": "10"
+            },
+            "round_code": "seed",
+            "source_url": "http://www.techcrunch.com/2007/03/06/scribd-youtube-for-text-gets-300k/",
+            "source_description": "Scribd \"YouTube for Documents\" Gets $300K",
+            "raised_amount": {
+                "$numberInt": "12000"
+            },
+            "raised_currency_code": "USD",
+            "funded_year": {
+                "$numberInt": "2006"
+            },
+            "funded_month": {
+                "$numberInt": "6"
+            },
+            "funded_day": {
+                "$numberInt": "1"
+            },
+            "investments": [
+                {
+                    "company": {
+                        "name": "Y Combinator",
+                        "permalink": "y-combinator"
+                    },
+                    "financial_org": null,
+                    "person": null
+                }
+            ]
+        },
+        {
+            "id": {
+                "$numberInt": "11"
+            },
+            "round_code": "angel",
+            "source_url": "",
+            "source_description": "",
+            "raised_amount": {
+                "$numberInt": "40000"
+            },
+            "raised_currency_code": "USD",
+            "funded_year": {
+                "$numberInt": "2007"
+            },
+            "funded_month": {
+                "$numberInt": "1"
+            },
+            "funded_day": {
+                "$numberInt": "1"
+            },
+            "investments": [
+                {
+                    "company": null,
+                    "financial_org": {
+                        "name": "The Kinsey Hills Group",
+                        "permalink": "kinsey-hills-group"
+                    },
+                    "person": null
+                }
+            ]
+        },
+        {
+            "id": {
+                "$numberInt": "14"
+            },
+            "round_code": "a",
+            "source_url": "",
+            "source_description": "",
+            "raised_amount": {
+                "$numberInt": "3710000"
+            },
+            "raised_currency_code": "USD",
+            "funded_year": {
+                "$numberInt": "2007"
+            },
+            "funded_month": {
+                "$numberInt": "6"
+            },
+            "funded_day": {
+                "$numberInt": "1"
+            },
+            "investments": [
+                {
+                    "company": null,
+                    "financial_org": {
+                        "name": "The Kinsey Hills Group",
+                        "permalink": "kinsey-hills-group"
+                    },
+                    "person": null
+                },
+                {
+                    "company": null,
+                    "financial_org": {
+                        "name": "Redpoint Ventures",
+                        "permalink": "redpoint-ventures"
+                    },
+                    "person": null
+                },
+                {
+                    "company": null,
+                    "financial_org": null,
+                    "person": {
+                        "first_name": "Marc",
+                        "last_name": "Andreessen",
+                        "permalink": "marc-andreessen"
+                    }
+                },
+                {
+                    "company": null,
+                    "financial_org": null,
+                    "person": {
+                        "first_name": "David",
+                        "last_name": "Sacks",
+                        "permalink": "david-sacks"
+                    }
+                },
+                {
+                    "company": null,
+                    "financial_org": null,
+                    "person": {
+                        "first_name": "Jeffrey",
+                        "last_name": "Jordan",
+                        "permalink": "jeffrey-jordan"
+                    }
+                },
+                {
+                    "company": null,
+                    "financial_org": null,
+                    "person": {
+                        "first_name": "Craig",
+                        "last_name": "Sherman",
+                        "permalink": "craig-sherman"
+                    }
+                }
+            ]
+        },
+        {
+            "id": {
+                "$numberInt": "4186"
+            },
+            "round_code": "b",
+            "source_url": "http://news.cnet.com/8301-13577_3-10126982-36.html",
+            "source_description": "Scribd chalks up another $9 million",
+            "raised_amount": {
+                "$numberInt": "9000000"
+            },
+            "raised_currency_code": "USD",
+            "funded_year": {
+                "$numberInt": "2008"
+            },
+            "funded_month": {
+                "$numberInt": "12"
+            },
+            "funded_day": {
+                "$numberInt": "19"
+            },
+            "investments": [
+                {
+                    "company": null,
+                    "financial_org": {
+                        "name": "Charles River Ventures",
+                        "permalink": "charles-river-ventures"
+                    },
+                    "person": null
+                },
+                {
+                    "company": null,
+                    "financial_org": {
+                        "name": "Redpoint Ventures",
+                        "permalink": "redpoint-ventures"
+                    },
+                    "person": null
+                },
+                {
+                    "company": null,
+                    "financial_org": {
+                        "name": "The Kinsey Hills Group",
+                        "permalink": "kinsey-hills-group"
+                    },
+                    "person": null
+                }
+            ]
+        },
+        {
+            "id": {
+                "$numberInt": "21034"
+            },
+            "round_code": "c",
+            "source_url": "http://paidcontent.org/article/419-scribd-raises-13-million-to-support-mobile-moves-product-expansion/",
+            "source_description": "Scribd Raises $13 Million To Support Mobile Moves, Product Expansion ",
+            "raised_amount": {
+                "$numberInt": "13000000"
+            },
+            "raised_currency_code": "USD",
+            "funded_year": {
+                "$numberInt": "2011"
+            },
+            "funded_month": {
+                "$numberInt": "1"
+            },
+            "funded_day": {
+                "$numberInt": "18"
+            },
+            "investments": [
+                {
+                    "company": null,
+                    "financial_org": {
+                        "name": "SVB Capital",
+                        "permalink": "svb-capital"
+                    },
+                    "person": null
+                },
+                {
+                    "company": null,
+                    "financial_org": {
+                        "name": "Redpoint Ventures",
+                        "permalink": "redpoint-ventures"
+                    },
+                    "person": null
+                },
+                {
+                    "company": null,
+                    "financial_org": {
+                        "name": "Charles River Ventures",
+                        "permalink": "charles-river-ventures"
+                    },
+                    "person": null
+                },
+                {
+                    "company": null,
+                    "financial_org": {
+                        "name": "The Kinsey Hills Group",
+                        "permalink": "kinsey-hills-group"
+                    },
+                    "person": null
+                }
+            ]
+        }
+    ],
+    "investments": [],
+    "acquisition": null,
+    "acquisitions": [],
+    "offices": [
+        {
+            "description": "HQ",
+            "address1": "539 Bryant Street",
+            "address2": "",
+            "zip_code": "94107",
+            "city": "San Francisco",
+            "state_code": "CA",
+            "country_code": "USA",
+            "latitude": {
+                "$numberDouble": "37.789634"
+            },
+            "longitude": {
+                "$numberDouble": "-122.404052"
+            }
+        }
+    ],
+    "milestones": [
+        {
+            "id": {
+                "$numberInt": "4960"
+            },
+            "description": "Scribd launches branded document reader for media companies ",
+            "stoned_year": {
+                "$numberInt": "2009"
+            },
+            "stoned_month": {
+                "$numberInt": "10"
+            },
+            "stoned_day": {
+                "$numberInt": "7"
+            },
+            "source_url": "http://www.scribd.com/doc/20754005/Scribd-Launches-Branded-Document-Reader-for-Media-Companies-Press-Release",
+            "source_text": null,
+            "source_description": "Scribd",
+            "stoneable_type": "Company",
+            "stoned_value": null,
+            "stoned_value_type": null,
+            "stoned_acquirer": null,
+            "stoneable": {
+                "name": "Scribd",
+                "permalink": "scribd"
+            }
+        },
+        {
+            "id": {
+                "$numberInt": "4961"
+            },
+            "description": "Scribd goes mobile, adds sharing to iPhone and Kindle",
+            "stoned_year": {
+                "$numberInt": "2010"
+            },
+            "stoned_month": {
+                "$numberInt": "2"
+            },
+            "stoned_day": {
+                "$numberInt": "24"
+            },
+            "source_url": "http://news.cnet.com/8301-27076_3-20000090-248.html",
+            "source_text": null,
+            "source_description": "Cnet",
+            "stoneable_type": "Company",
+            "stoned_value": null,
+            "stoned_value_type": null,
+            "stoned_acquirer": null,
+            "stoneable": {
+                "name": "Scribd",
+                "permalink": "scribd"
+            }
+        },
+        {
+            "id": {
+                "$numberInt": "43860"
+            },
+            "description": "Scribd Launches First Global Digital Book Subscription Service, Partners with HarperCollins",
+            "stoned_year": {
+                "$numberInt": "2013"
+            },
+            "stoned_month": {
+                "$numberInt": "10"
+            },
+            "stoned_day": {
+                "$numberInt": "1"
+            },
+            "source_url": "http://www.fastcompany.com/3018856/scribd-harpercollins-launch-899-subscription-book-service",
+            "source_text": null,
+            "source_description": "Fast Company",
+            "stoneable_type": "Company",
+            "stoned_value": null,
+            "stoned_value_type": null,
+            "stoned_acquirer": null,
+            "stoneable": {
+                "name": "Scribd",
+                "permalink": "scribd"
+            }
+        }
+    ],
+    "ipo": null,
+    "video_embeds": [
+        {
+            "embed_code": "<script src=\"http://i.cdn.turner.com/money/.element/script/3.0/video/evp/module.js?loc=dom&vid=/video/fortune/2009/01/26/fortune.disruptors.scribd.fortune\" type=\"text/javascript\"></script><noscript>Embedded video from <a href=\"http://money.cnn.com/video\">CNNMoney.com Video</a></noscript>",
+            "description": "<p>CNN Money</p>"
+        },
+        {
+            "embed_code": "<iframe src=\"http://blip.tv/play/goRrgsiWMAI.html\" width=\"370\" height=\"308\" frameborder=\"0\" allowfullscreen></iframe><embed type=\"application/x-shockwave-flash\" src=\"http://a.blip.tv/api.swf#goRrgsiWMAI\" style=\"display:none\"></embed>",
+            "description": "<p>This video was originally published on <a href=\"http://www.beet.tv/2011/07/scribd-launches-float-new-reading-app-for-the-web-and-ipad-.html\" title=\"Beet.TV\" rel=\"nofollow\">Beet.TV</a></p>"
+        },
+        {
+            "embed_code": "<div class=\"rpuEmbedCode\">\r\n<div class=\"rpuArticle rpuRepost-46f9410c4a2795881ca9d2cd270b150a-top\" style=\"margin:0;padding:0;\">\r\n<script src=\"https://1.rp-api.com/rjs/repost-article.js?3\" type=\"text/javascript\" data-cfasync=\"false\"></script><a href=\"http://s.tt/1Qm9M\" class=\"rpuThumb\" rel=\"norewrite\"><img src=\"//img.1.rp-api.com/thumb/8435863\" style=\"float:left;margin-right:10px;\" /></a><a href=\"http://s.tt/1Qm9M\" class=\"rpuTitle\" rel=\"norewrite\"><strong>What does achieving a big milestone get you at Scribd? An equally big office perk.</strong></a> (via <a href=\"http://s.tt/1Qm9M\" class=\"rpuHost\" rel=\"norewrite\">Pando Daily</a>)<p class=\"rpuSnip\">\r\nBy Kym McNicholas On November 18, 2013Scribd, which one month ago launched a subscription plan to allow users to download an unlimited number of books for $8.99 per month, has hit a big milestone: 1 million books bookmarked by users. To celebrate this&hellip;\r\n</p>\r\n</div>\r\n</div><!-- put the \"tease\", \"jump\" or \"more\" break here --><hr id=\"system-readmore\" style=\"display: none;\" /><!--more--><!--break--><hr class=\"at-page-break\" style=\"display: none;\"/><div class=\"rpuEmbedCode\">\r\n<div class=\"rpuArticle rpuRepostMain rpuRepost-46f9410c4a2795881ca9d2cd270b150a-bottom\" style=\"display:none;\">&nbsp;</div>\r\n<div style=\"display: none;\"><!-- How to customize this embed: http://www.repost.us/article-preview/hash/c37d7bd5fca17a156d0e2439ad21e527 --></div>\r\n</div>",
+            "description": "<p>Pando Daily</p>"
+        },
+        {
+            "embed_code": "<script src='http://player.ooyala.com/player.js?embedCode=N1MjdhZjpm1j565qc554SgF83jaGeC_y&playerBrandingId=8a7a9c84ac2f4e8398ebe50c07eb2f9d&width=420&deepLinkEmbedCode=N1MjdhZjpm1j565qc554SgF83jaGeC_y&height=360&thruParam_bloomberg-ui[popOutButtonVisible]=FALSE'></script>",
+            "description": "<p>Bloomberg TV</p>"
+        }
+    ],
+    "screenshots": [
+        {
+            "available_sizes": [
+                [
+                    [
+                        {
+                            "$numberInt": "150"
+                        },
+                        {
+                            "$numberInt": "72"
+                        }
+                    ],
+                    "assets/images/resized/0014/8670/148670v1-max-150x150.jpg"
+                ],
+                [
+                    [
+                        {
+                            "$numberInt": "250"
+                        },
+                        {
+                            "$numberInt": "121"
+                        }
+                    ],
+                    "assets/images/resized/0014/8670/148670v1-max-250x250.jpg"
+                ],
+                [
+                    [
+                        {
+                            "$numberInt": "450"
+                        },
+                        {
+                            "$numberInt": "218"
+                        }
+                    ],
+                    "assets/images/resized/0014/8670/148670v1-max-450x450.jpg"
+                ]
+            ],
+            "attribution": null
+        },
+        {
+            "available_sizes": [
+                [
+                    [
+                        {
+                            "$numberInt": "150"
+                        },
+                        {
+                            "$numberInt": "130"
+                        }
+                    ],
+                    "assets/images/resized/0014/8672/148672v1-max-150x150.png"
+                ],
+                [
+                    [
+                        {
+                            "$numberInt": "250"
+                        },
+                        {
+                            "$numberInt": "217"
+                        }
+                    ],
+                    "assets/images/resized/0014/8672/148672v1-max-250x250.png"
+                ],
+                [
+                    [
+                        {
+                            "$numberInt": "450"
+                        },
+                        {
+                            "$numberInt": "392"
+                        }
+                    ],
+                    "assets/images/resized/0014/8672/148672v1-max-450x450.png"
+                ]
+            ],
+            "attribution": null
+        }
+    ],
+    "external_links": [
+        {
+            "external_url": "http://www.online-tech-tips.com/cool-websites/free-online-document-storage/",
+            "title": "Scribd Review"
+        }
+    ],
+    "partners": []
+}
