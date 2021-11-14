@@ -11,4 +11,4 @@ py .\scriptmaker.py
 
 3. copy the query string to your mongosh terminal
 
-<sub>in the query.json file, the "$" sign indicates the query's place</sub>
+<sub>in the query.json file, the "#" sign indicates the query's place</sub>
