@@ -1,1 +1,1 @@
-db.companies.find({'offices': {'$elemMatch': {'city': 'Seattle'}}},{'offices': 1, '_id': 0}).count()
+db.trips.find({'start station location.coordinates': {'$elemMatch': {'$lt': -74}}},{'start station location.coordinates': 1, '_id': 0}).count()
