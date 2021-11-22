@@ -1,0 +1,130 @@
+[{
+    "connection_string": "mongosh 'mongodb+srv://sandbox.lyn0e.mongodb.net/myFirstDatabase' -u m001-student -p m001-mongodb-basics",
+    "db": "use sample_training",
+    "script": "db.companies.find($).count()",
+    "query": {
+      "$or": [
+        {
+          "$and": [
+            {
+              "founded_year": 2004
+            },
+            {
+              "$or": [
+                {
+                  "category_code": "social"
+                },
+                {
+                  "category_code": "web"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "$and": [
+            {
+              "founded_month": 10
+            },
+            {
+              "$or": [
+                {
+                  "category_code": "social"
+                },
+                {
+                  "category_code": "web"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "connection_string": "mongosh 'mongodb+srv://sandbox.lyn0e.mongodb.net/myFirstDatabase' -u m001-student -p m001-mongodb-basics",
+    "db": "use sample_training",
+    "script": "db.companies.find(#).count()",
+    "query": {
+      "$expr": {
+        "$eq": [
+          "$permalink",
+          "$twitter_username"
+        ]
+      }
+    }
+  },
+  {
+    "connection_string": "mongosh 'mongodb+srv://sandbox.lyn0e.mongodb.net/myFirstDatabase' -u m001-student -p m001-mongodb-basics",
+    "db": "use sample_airbnb",
+    "script": "db.listingsAndReviews.find(#)",
+    "query": {
+      "$and": [
+        {
+          "accommodates": {
+            "$gt": 6
+          }
+        },
+        {
+          "number_of_reviews": 50
+        }
+      ]
+    }
+  },
+  {
+    "connection_string": "mongosh 'mongodb+srv://sandbox.lyn0e.mongodb.net/myFirstDatabase' -u m001-student -p m001-mongodb-basics",
+    "db": "use sample_airbnb",
+    "script": "db.listingsAndReviews.find(#).count()",
+    "query": {
+      "$and": [
+        {
+          "property_type": "House"
+        },
+        {
+          "amenities": "Changing table"
+        }
+      ]
+    }
+  },
+  {
+    "connection_string": "mongosh 'mongodb+srv://sandbox.lyn0e.mongodb.net/myFirstDatabase' -u m001-student -p m001-mongodb-basics",
+    "db": "use sample_training",
+    "script": "db.companies.find(#,@).count()",
+    "query": {
+      "offices": {
+        "$elemMatch": {
+          "city": "Seattle"
+        }
+      }
+    },
+    "projections": {
+      "offices": 1,
+      "_id": 0
+    }
+  },
+  {
+    "connection_string": "mongosh 'mongodb+srv://sandbox.lyn0e.mongodb.net/myFirstDatabase' -u m001-student -p m001-mongodb-basics",
+    "db": "use sample_training",
+    "script": "db.trips.find(#,@).count()",
+    "query": {
+      "start station location.coordinates": {
+        "$elemMatch": {
+          "$lt": -74
+        }
+      }
+    },
+    "projections": {
+      "start station location.coordinates": 1,
+      "_id": 0
+    }
+  },
+  {
+    "connection_string": "mongosh 'mongodb+srv://sandbox.lyn0e.mongodb.net/myFirstDatabase' -u m001-student -p m001-mongodb-basics",
+    "db": "use sample_training",
+    "script": "db.inspections.find(#,@).count()",
+    "query": {
+      "address.city": "NEW YORK"
+    },
+    "projections": {}
+  }
+]
